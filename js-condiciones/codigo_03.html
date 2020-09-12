@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html><body>
+<h2>Lenguaje JavaScript - Condiciones</h2>
+<hr><p id="consola"></p><hr>
+<script>
+var numero = 12;
+
+// Condicion if
+if(numero == 10){
+  escribir("El numero es: " + numero);
+} else if( numero == 12){
+/* 
+  	Este bloque de código se ejecutará si el valor de la variable número es igual a 12
+  */
+  escribir("El numero es: " + numero);
+} 
+
+function escribir(texto){
+	document.getElementById("consola").innerHTML = texto;
+}
+</script>
+</body>
+</html>

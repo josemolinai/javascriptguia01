@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html><body>
+<h2>Lenguaje JavaScript - Condiciones</h2>
+<hr><p id="consola"></p><hr>
+<script>
+var fruta = "Melón" ;
+
+switch(fruta) {
+  case "Pera":
+    escribir("Ha seleccionado una pera");
+    break;
+  case "Manzana":
+    escribir("Ha seleccionado una manzana");
+    break;
+  default:
+    escribir("Ha seleccionado una fruta distinta manaza o pera");
+}
+
+function escribir(texto){
+	document.getElementById("consola").innerHTML = texto;
+}
+</script>
+</body>
+</html>

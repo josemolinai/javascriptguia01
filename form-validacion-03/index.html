@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="./css/estilos.css" />
+    <script src="./js/app.js"></script>
+  </head>
+  <body onload="CargarRegiones();">
+    <div class="contenedor">
+      <div class="panel">
+        <!--Para este formulario haz que tambien se escriba el apellido en el panel derecho-->
+        <div>
+          <form name="form1">
+            <div class="titulo">Formulario 1</div>
+            <p>Ingresa tu nombre y apellido, luego presiona el boton enviar</p>
+            <label>Nombre:</label>
+            <input name="fnombre" type="text" onblur="onBlurField('fnombre');" onpaste="return onPasteField('fnombre');" oncopy="return onCopyField('fnombre')" /><br />
+            <div class="message"><span class="message message-fnombre">Ingrese su nombre</span></div>
+            
+            <label>Apellido:</label>
+            <input name="fapellido" type="text"  onblur="onBlurField('fapellido');" onpaste="return onPasteField('fapellido');" oncopy="return onCopyField('fapellido')"  /><br />
+            <div class="message"><span class="message message-fapellido">Ingrese su apellido</span></div>
+            <input
+              name="benviar"
+              type="button"
+              value="Enviar"
+              onclick="return enviarForm1();"
+            />
+          </form>
+        </div>
+        <div>
+          <form name="form1datos">
+            <div class="titulo">Datos Ingresados</div>
+            <p>El usuario a ingesado los siguientes datos</p>
+            <label>Nombre:</label>
+            <input name="fnombre" type="text" readonly /><br />
+
+            <label>Apellido:</label>
+            <input name="fapellido" type="text" readonly /><br /><br />
+          </form>
+        </div>
+      </div>
+
+      <div class="panel">
+        <!--Para este formulario haz que tambien se valide que la edad sea menor a 130-->
+        <div>
+          <form name="form2">
+            <div class="titulo">Formulario 2</div>
+            <p>
+              Ingresa tu edad y año de nacimiento, luego presiona el boton
+              enviar
+            </p>
+            <label>Edad:</label>
+            <input name="fedad" type="number" /><br />
+
+            <label>Año nacimiento:</label>
+            <input name="fanio" type="text" /><br /><br />
+            <input
+              name="benviar"
+              type="button"
+              value="Enviar"
+              onclick="return enviarForm2();"
+            />
+          </form>
+        </div>
+        <div>
+          <form name="form2datos">
+            <div class="titulo">Datos Ingresados</div>
+            <p>El usuario a ingresado los siguientes datos</p>
+            <label>Edad:</label>
+            <input name="fedad" type="text" readonly /><br />
+
+            <label>Año nacimiento:</label>
+            <input name="fanio" type="text" readonly /><br /><br />
+          </form>
+        </div>
+      </div>
+
+      <div class="panel">
+        <!--Para este formulario haz que el rut en el panel derecho tenga los puntos separadores-->
+        <div>
+          <form name="form3">
+            <div class="titulo">Formulario 3</div>
+            <p>Ingresa tu rut luego presiona el boton enviar</p>
+            <label>Rut:</label>
+            <input name="frut" type="text" /><br />
+            <input
+              name="benviar"
+              type="button"
+              value="Enviar"
+              onclick="return enviarForm3();"
+            />
+          </form>
+        </div>
+        <div>
+          <form name="form3datos">
+            <div class="titulo">Datos Ingresados</div>
+            <p>El usuario a ingresado los siguientes datos</p>
+            <label>Rut:</label>
+            <input name="frut" type="text" readonly /><br />
+          </form>
+        </div>
+      </div>
+
+      <div class="panel">
+       <!--Para este formulario haz que se muestra en el panel derecho la provincia y la comuna seleccionada por el usuario-->
+        <div>
+          <form name="form4">
+            <div class="titulo">Formulario 4</div>
+            <p>Seleccion la Región, luego la provincia y la comuna</p>
+            <label>Región:</label>
+            <select id="fregiones" onchange="cargarProvincias();" ></select><br>
+            <label>Provincia:</label>
+            <select id="fprovincias" onchange="cargarComunas();" >
+            <option value="" >Seleccionar una Provincia</option>
+            </select><br>
+            <label>Comuna:</label>
+            <select id="fcomunas" >
+            <option value="" >Seleccionar una Comuna</option>
+            </select><br>
+            <input
+              name="benviar"
+              type="button"
+              value="Enviar"
+              onclick="return enviarForm4();"
+            />
+          </form>
+        </div>
+        <div>
+          <form name="form4datos">
+            <div class="titulo">Datos Ingresados</div>
+            <p>El usuario a ingresado los siguientes datos</p>
+            <label>Región:</label>
+            <input name="fregion" type="text" readonly /><br />
+            <label>Provincia:</label>
+            <input name="fprovincia" type="text" readonly /><br />
+            <label>Comuna:</label>
+            <input name="fcomuna" type="text" readonly /><br />
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
