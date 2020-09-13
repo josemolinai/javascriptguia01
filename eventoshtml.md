@@ -8,4 +8,5 @@
 |:-----                                |:----------        |
 |[html-eventos-01](html-eventos-01/)   |Manejo de evento click sobre un botón  |
 |[html-eventos-02](html-eventos-02/)   |Manejo de evento change sobre un campo de entrada  |
+|[html-eventos-03](html-eventos-03/)   |Manejo de evento load el elemento body|
 
