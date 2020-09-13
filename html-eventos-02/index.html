@@ -8,10 +8,12 @@
 </head>
 
 <body>
-  <h2>Evento click</h2>
+  <h2>Evento change</h2>
 
-  <button type="button" onclick="document.getElementById('consola').innerHTML = Date()">
-    Haz Click aquí!</button>
+  <form name="formulario">
+    <input type="text" name="entrada"  onchange="onchangeInput(this)" placeholder="Escriba un texto"  ><br>
+    <input type="text" name="salida" readonly>
+  </form>
 
   <p id="consola"></p>
 </body>
