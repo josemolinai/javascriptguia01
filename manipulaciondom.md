@@ -11,4 +11,4 @@ El DOM da una representación del documento como un grupo de nodos y objetos est
 
 
 ### Referencias
-[Referencia_DOM_de_Gecko](https://developer.mozilla.org/es/docs/Referencia_DOM_de_Gecko/Introducci%C3%B3n)
+[Referencia DOM de Gecko](https://developer.mozilla.org/es/docs/Referencia_DOM_de_Gecko/Introducci%C3%B3n)

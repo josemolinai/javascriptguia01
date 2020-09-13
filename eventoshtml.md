@@ -10,3 +10,6 @@
 |[html-eventos-02](html-eventos-02/)   |Manejo de evento change sobre un campo de entrada  |
 |[html-eventos-03](html-eventos-03/)   |Manejo de evento load en el elemento body|
 
+
+### Referencias
+[w3schools Js Events](https://www.w3schools.com/js/js_events.asp)
