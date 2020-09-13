@@ -7,6 +7,7 @@ El DOM da una representación del documento como un grupo de nodos y objetos est
 |Enlace                                        |Descripcion        |
 |:-----                                        |:----------        |
 |[dom-manipulacion-01](dom-manipulacion-01/)   |Manejo de DOM por medio de document.getElementById(id)  |
+|[dom-manipulacion-02](dom-manipulacion-02/)   |Manejo de DOM por medio de document.getElementsByTagName(tagname)|
 
 
 
