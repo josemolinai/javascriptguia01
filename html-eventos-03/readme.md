@@ -1,4 +1,4 @@
-# Manejo de evento load el elemento body
+# Manejo de evento load en el elemento body
 
 ```html
  <body onload="onloadBody();">
