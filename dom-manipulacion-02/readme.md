@@ -22,5 +22,5 @@ function onloadBody(){
 }
 ```
 
-Dentro la función *onloadBody* se obtienen los párrafos del documento y se le asigna un texto que los enumera.
+Dentro de la función *onloadBody* se obtienen los párrafos del documento y se le asigna un texto que los enumera.
 

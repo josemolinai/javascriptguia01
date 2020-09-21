@@ -16,6 +16,6 @@ function onloadBody(){
 }
 ```
 
-Dentro la función *onloadBody* se obtiene el párrafo con id igual a "consola" y se le asigna el contenido html:  
+Dentro de la función *onloadBody* se obtiene el párrafo con id igual a "consola" y se le asigna el contenido html:  
  **Se ha cargado completamente el documento!**
 
