@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="./css/estilos.css" />
+    <script src="./js/app.js"></script>
+  </head>
+  <body>
+    <div class="contenedor">
+   
+      <div class="panel">
+        <!--Para este formulario haz que el rut en el panel derecho tenga los puntos separadores-->
+        <div>
+          <form name="form3">
+            <div class="titulo">Formulario 3</div>
+            <p>Ingresa tu rut luego presiona el boton enviar</p>
+            <label>Rut:</label>
+            <input name="frut" type="text" /><br />
+            <input
+              name="benviar"
+              type="button"
+              value="Enviar"
+              onclick="return enviarForm3();"
+            />
+          </form>
+        </div>
+        <div>
+          <form name="form3datos">
+            <div class="titulo">Datos Ingresados</div>
+            <p>El usuario a ingresado los siguientes datos</p>
+            <label>Rut:</label>
+            <input name="frut" type="text" readonly /><br />
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

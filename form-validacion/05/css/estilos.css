@@ -1,0 +1,51 @@
+.contenedor {
+  display: flex;
+  background-color: DodgerBlue;
+  flex-direction: column;
+}
+
+.contenedor > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+}
+
+.panel {
+  display: flex;
+}
+
+.panel > div {
+  margin-right: 10px;
+  width: 50%;
+}
+
+div.titulo {
+  font-size: 20px;
+}
+
+p {
+  font-size: 12px;
+}
+
+label {
+  font-size: 12px;
+  width: 100px;
+  display: inline-block;
+}
+
+input:read-only {
+  background-color: DodgerBlue;
+}
+
+div.message {
+  color: red;
+  font-size: 12px;
+  width: 100%;
+  text-align: right;
+  padding: 0px 0px 10px 0px;
+}
+
+span.message {
+  padding: 5px;
+  display: none
+}

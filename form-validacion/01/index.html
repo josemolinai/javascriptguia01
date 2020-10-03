@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<head>
+<script>
+function escribir(texto){
+	document.getElementById("consola").innerHTML = texto;
+}
+function validarFormulario() {
+  var x = document.forms["formulario"]["fnombre"].value;
+  if (x == "") {
+    escribir("Debe ingresar su nombre");
+    return false;
+  }
+  escribir("Gracias por Registrarse");
+  return true;
+}
+</script>
+</head>
+<body>
+    <h2>Formulario de Registro</h2>
+<form name="formulario" action="#" onsubmit="return validarFormulario()" method="post">
+  Nombre: <input type="text" name="fnombre">
+  <input type="submit" value="Enviar Formulario">
+</form>
+<p id="consola"></p>
+</body>
+</html>

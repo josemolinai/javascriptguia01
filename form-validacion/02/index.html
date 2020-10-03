@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="./css/estilos.css" />
+    <script src="./js/app.js"></script>
+  </head>
+  <body>
+    <div class="contenedor">
+      <div class="panel">
+        <!--Para este formulario haz que tambien se escriba el apellido en el panel derecho-->
+        <div>
+          <form name="form1">
+            <div class="titulo">Formulario 1</div>
+            <p>Ingresa tu nombre y apellido, luego presiona el boton enviar</p>
+            <label>Nombre:</label>
+            <input name="fnombre" type="text" placeholder="Nombre" /><br />
+
+            <label>Apellido:</label>
+            <input name="fapellido" type="text" /><br /><br />
+            
+            <input
+              name="benviar"
+              type="button"
+              value="Enviar"
+              onclick="return enviarForm1();"
+            />
+          </form>
+        </div>
+        <div>
+          <form name="form1datos">
+            <div class="titulo">Datos Ingresados</div>
+            <p>El usuario a ingesado los siguientes datos</p>
+            <label>Nombre:</label>
+            <input name="fnombre" type="text" readonly /><br />
+
+            <label>Apellido:</label>
+            <input name="fapellido" type="text" readonly /><br /><br />
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
