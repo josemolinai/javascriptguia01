@@ -1,4 +1,4 @@
-[Volver](../readme.md)
+[Volver](../)
 # Copiando datos ingresado a un formulario de solo lectura.
 
 - Una alternativa a los formulario tipo submit, son los formulario donde la validación de datos se efectuar cuando el usuario hace click sobre un __input de tipo button__.
@@ -62,4 +62,4 @@ y en
 <input name="fapellido" type="text" readonly />
 ~~~
 
-[Volver](../readme.md)
+[Volver](../)

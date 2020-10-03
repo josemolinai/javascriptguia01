@@ -1,4 +1,4 @@
-[Volver](../readme.md)
+[Volver](../)
 # Validando un formulario de tipo submit
 
 - Un formulario tipo submit es aquel que tiene definido la propieda __onsubmit__ y que generalmente retorna un valor booleano (__true o false__).
@@ -65,4 +65,4 @@ escribir("Gracias por Registrarse");
   return true;
 ~~~
 
-[Volver](../readme.md)
+[Volver](../)

@@ -1,4 +1,4 @@
-[Volver](../readme.md)
+[Volver](../)
 # Manejo de evento click sobre un botón 
 
 ```html
@@ -18,6 +18,4 @@ En el código html superior se ha agregado la propiedad **onclick** al elemento 
 document.getElementById('consola').innerHTML = Date()
 ```
 
-[Volver](../readme.md)
-
-
+[Volver](../)

@@ -1,4 +1,4 @@
-[Volver](../readme.md)
+[Volver](../)
 # Manejo de DOM por medio de document.getElementsByTagName(tagname)
 
 ```html
@@ -25,4 +25,4 @@ function onloadBody(){
 
 Dentro de la función *onloadBody* se obtienen los párrafos del documento y se le asigna un texto que los enumera.
 
-[Volver](../readme.md)
+[Volver](../)

@@ -1,8 +1,8 @@
-[Volver](../readme.md)
+[Volver](../)
 # Validación de Formularios mediante JavaScript
 
-- [Validación de Formularios Tipo Submit](./01/readme.md)
-- [Copiando datos ingresado a un formulario de solo lectura](./02/readme.md)
-- [Validando datos numéricos en Formularios](./03/readme.md)
+- [Validación de Formularios Tipo Submit](./01/)
+- [Copiando datos ingresado a un formulario de solo lectura](./02/)
+- [Validando datos numéricos en Formularios](./03/)
 
-[Volver](../readme.md)
+[Volver](../)

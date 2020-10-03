@@ -1,4 +1,4 @@
-[Volver](../readme.md)
+[Volver](../)
 # Manejo de evento change sobre un campo de entrada
 
 ```html
@@ -16,6 +16,4 @@ function onchangeInput(input){
 }
 ```
 
-[Volver](../readme.md)
-
-
+[Volver](../)

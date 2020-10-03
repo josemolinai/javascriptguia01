@@ -1,4 +1,4 @@
-[Volver](../readme.md)
+[Volver](../)
 # Manejo de evento load en el elemento body
 
 ```html
@@ -17,6 +17,4 @@ function onloadBody(){
 }
 ```
 
-[Volver](../readme.md)
-
-
+[Volver](../)

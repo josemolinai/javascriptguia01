@@ -1,4 +1,4 @@
-[Volver](../readme.md)
+[Volver](../)
 # Validando datos numéricos en Formularios
 
 - Observa con detención el siguiente formulario:
@@ -104,4 +104,4 @@ if(Number(anio) < 1900){
 
 - En caso positivo se copia el valor del año al formulario de solo lectura, en caso contrario se lanza una alerta al usuario pidiend que ingrese un año mayor o igual a 1900.
 
-[Volver](../readme.md)
+[Volver](../)
