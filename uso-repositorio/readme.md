@@ -1,4 +1,4 @@
-[Volver](../)
+[Volver](../../../)
 # Uso de este Repositorio
 - Descargar la Guía por medio de GIT  
 
@@ -28,4 +28,4 @@
 ### Referencias
 [Tutorial Git - Diego C Martin](https://www.diegocmartin.com/tutorial-git/)
 
-[Volver](../)
+[Volver](../../../)

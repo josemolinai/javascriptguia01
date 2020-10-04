@@ -1,4 +1,4 @@
-[Volver](../)
+[Volver](../../../)
 # Manejo de eventos HTML con Javascript
 
 - Los eventos HTML son acciones que realizan los navegadores web o los usuarios que interactúan con un documento web.
@@ -16,4 +16,4 @@
 [w3schools Js Events](https://www.w3schools.com/js/js_events.asp)
 
 
-[Volver](../)
+[Volver](../../../)
