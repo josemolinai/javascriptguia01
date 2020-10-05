@@ -22,3 +22,9 @@ El modelo de objeto de documento (DOM) es una interfaz de programación para los
 El DOM da una representación del documento como un grupo de nodos y objetos estructurados que tienen propiedades y métodos.  
 
 - Puedes visitar la sección [Manipulación del DOM con JavaScript](./dom-manipulacion/) para conocer más sobre cómo se puede manipular el DOM con JavaScript
+
+
+## Manipulación del DOM con Jquery  
+Jquery es una librería de JavaScript que facilita programar con JavaScript los documentos HTML.  
+
+- Puedes visitar la sección [Manipulación del DOM con Jquery](./jq-dom-manipulacion/) para conocer más sobre cómo manipular el DOM con Jquery.
