@@ -1,4 +1,5 @@
 [Volver](../)
+
 # Jquery - Evento ready 
 
 - Jquery permite obtener un elemento del DOM mediante selectores $(selector)
@@ -21,5 +22,6 @@ $(document).ready(function(){
 $("#salida").html("Se ha cargado completamente el documento!");
 ~~~
 
-- En esta ocación se ha usado un selector de tipo __id__, lo que se aprecia al estar precedido por el signo __#__
+- En esta ocación se ha usado un selector de tipo __id__, lo que se aprecia al estar precedido por el signo __#__  
+
 [Volver](../)
