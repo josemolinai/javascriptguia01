@@ -1,6 +1,6 @@
 # Guía de Ejercicios y Ejemplos Para JavaScript
 
-En esta guía encontrarás códigos de ejemplo y ejericios para aprender a ocupar JavaScript en páginas web.
+En esta guía encontrarás códigos de ejemplo y ejercicios para aprender a ocupar JavaScript en páginas web.
 
 - Para descargar este repositorio visita la sección [Sobre como usar este Repositorio](./uso-repositorio/)
 
