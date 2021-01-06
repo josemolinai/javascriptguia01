@@ -1,8 +1,8 @@
 [Volver](../../../)
 # Variables en JavaScript
 
-- [Suma de variables en JavaScript](./01-suma-variables/readme.md)
-- [Tipos de datos de las variables JavaScript](./02/readme.md)
+- [Suma de variables](./01-suma-variables/readme.md)
+- [Tipos de datos](./02-tipo-datos/readme.md)
 
 
 [Volver](../../../)
