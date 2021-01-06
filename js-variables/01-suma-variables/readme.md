@@ -14,7 +14,7 @@ document.getElementById("demo").innerHTML =
 </script>
 ~~~
 
-- El valor de la _variable_ será el resultado de sumar el valor de la __x__ más el valor de la varibale __y__, esto es igual a __11__
+- El valor de la _variable_ será el resultado de sumar el valor de la __x__ más el valor de la variable __y__, esto es igual a __11__
 
 
 [Volver](../)
